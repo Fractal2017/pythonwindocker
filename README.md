@@ -14,15 +14,15 @@ This is short but hope useful example on how to run python App GUI from your con
     Page4: Save Configuration in %appsuser% directory
 
 2. Create a simple .Dockerfile:
-# myconfig.Dockerfile
+`# myconfig.Dockerfile
 FROM python:latest
 RUN  pip install pandas==1.0.3
 RUN  pip install scikit-learn
 RUN  pip install scipy
-RUN  pip install matplotlib
+RUN  pip install matplotlib`
 
 3. Create the image
-> docker build -t mypyimg:v1 -f myconfig.Dockerfile . 
+'> docker build -t mypyimg:v1 -f myconfig.Dockerfile . ' 
 
 4. From your Windows host obtain the current path and the ip address and assign it to the below environment variables
 > set DISPLAY=<hostipaddress>:0.0
