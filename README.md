@@ -37,7 +37,7 @@ This is short but hope useful example on how to run python App GUI from your con
    `DOS> docker run -dit -e DISPLAY=%DISPLAY% -v %HOME%:/usr/src/myproject --name mypython mypyimg:v1`
 
 6. Create a python file "example1.py" in your current directory
-```     
+```py
    # example of a line plot
    from numpy import sin
    from matplotlib import pyplot
