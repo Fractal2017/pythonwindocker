@@ -14,7 +14,7 @@ This is short but hope useful example on how to run python App GUI from your con
       4. Page 4: Save Configuration in %appsuser% directory
 
 2. Create a simple .Dockerfile:
-```
+```docker
    # myconfig.Dockerfile
    FROM python:latest
    RUN  pip install pandas==1.0.3
