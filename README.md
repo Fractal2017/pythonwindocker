@@ -25,11 +25,13 @@ This is short but hope useful example on how to run python App GUI from your con
 ```
 
 3. Create the image
+   
    `> docker build -t mypyimg:v1 -f myconfig.Dockerfile . ` 
 
 4. From your Windows host obtain the current path and the ip address and assign it to the below environment variables
-   `> set DISPLAY=<hostipaddress>:0.0
-    `> set HOME=%cd%`
+   
+   `> set DISPLAY=<hostipaddress>:0.0`
+   `> set HOME=%cd%`
   
 5. Create a container based on that image
          > docker run -dit -e DISPLAY=%DISPLAY% -v %HOME%:/usr/src/myproject --name mypython mypyimg:v1
