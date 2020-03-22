@@ -4,6 +4,7 @@ This is short but hope useful example on how to run python App GUI from your con
 #### Steps
 1. Install on your windows host (VcXsrv)
    ```Go to https://sourceforge.net/projects/vcxsrv/```
+   
    ![VcXsrv](https://github.com/Fractal2017/pythonwindocker/blob/master/img/Image-0110.png)
 
    a. ``` Invoke XLAUNCH.exe```
@@ -59,8 +60,6 @@ This is short but hope useful example on how to run python App GUI from your con
 
 7. Connect to the container, navigate to the file location and run the python code
 
-   ![Output](https://github.com/Fractal2017/pythonwindocker/blob/master/img/Image-0117.png)
-
 ```
    DOS> docker exec -it mypython /bin/bash
    $ cd /usr/src/myproject
@@ -68,3 +67,5 @@ This is short but hope useful example on how to run python App GUI from your con
 ```
 
 8. The graphical output should be on your Windows host machine
+
+ ![Output](https://github.com/Fractal2017/pythonwindocker/blob/master/img/Image-0117.png)
