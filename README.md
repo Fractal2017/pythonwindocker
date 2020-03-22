@@ -30,6 +30,7 @@ This is short but hope useful example on how to run python App GUI from your con
 4. From your Windows host obtain the current path and the ip address and assign it to the below environment variables
    
    `DOS> set DISPLAY=<hostipaddress>:0.0`
+   
    `DOS> set HOME=%cd%`
   
 5. Create a container based on that image
