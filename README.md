@@ -16,12 +16,14 @@ This is short but hope useful example on how to run python App GUI from your con
       4. Page 4: Save Configuration in %appsuser% directory
 
 2. Create a simple .Dockerfile:
-         # myconfig.Dockerfile
-         FROM python:latest
-         RUN  pip install pandas==1.0.3
-         RUN  pip install scikit-learn
-         RUN  pip install scipy
-         RUN  pip install matplotlib`
+```
+   # myconfig.Dockerfile
+   FROM python:latest
+   RUN  pip install pandas==1.0.3
+   RUN  pip install scikit-learn
+   RUN  pip install scipy
+   RUN  pip install matplotlib
+```
 
 3. Create the image
    `> docker build -t mypyimg:v1 -f myconfig.Dockerfile . ` 
