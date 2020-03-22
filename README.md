@@ -4,10 +4,10 @@ This is short but hope useful example on how to run python App GUI from your con
 
 ####Steps
 1. Install on your windows host (VcXsrv)
-   `Go to https://sourceforge.net/projects/vcxsrv/`
+   ```Go to https://sourceforge.net/projects/vcxsrv/```
 
    a. Configure the Windows X-Server
-      ` Invoke XLAUNCH.exe`
+      ``` Invoke XLAUNCH.exe```
 
    b. Configuration:
       1. Page 1: Allow Multiple windows
