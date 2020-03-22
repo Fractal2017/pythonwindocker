@@ -6,6 +6,7 @@ This is short but hope useful example on how to run python App GUI from your con
    ```Go to https://sourceforge.net/projects/vcxsrv/```
 
    a. ``` Invoke XLAUNCH.exe```
+   ![Xlaunch](https://github.com/Fractal2017/pythonwindocker/blob/master/img/Image-0110.png)
 
    b. Configuration of Windows X-Server:
       1. Page 1: Allow Multiple windows
