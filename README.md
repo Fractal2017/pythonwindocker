@@ -40,9 +40,7 @@ This is short but hope useful example on how to run python App GUI from your con
    
    `DOS> set DISPLAY=*<hostipaddress>*:0.0`
    
-   For example:
-   
-   `DOS> set DISPLAY=172.27.0.66:0.0`
+   For example: `DOS> set DISPLAY=172.27.0.66:0.0`
 
 5. Create a container based on that image
    
