@@ -6,7 +6,7 @@ This is short but hope useful example on how to run python App GUI from your con
    
    ![VcXsrv](https://github.com/Fractal2017/pythonwindocker/blob/master/img/Image-0110.png)
 
-   a. ``` Invoke XLAUNCH.exe```
+   a. Invoke ```XLAUNCH.exe```
    
    ![Xlaunch](https://github.com/Fractal2017/pythonwindocker/blob/master/img/Image-0111.png)
 
