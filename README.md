@@ -17,6 +17,7 @@ This is short but hope useful example on how to run python App GUI from your con
       3. Page 3: Select all options
       4. Page 4: Save Configuration in %appsuser% directory
       
+      
       <img src="/img/Image-0114.png"  width="50%">
 
 2. Create a simple .Dockerfile:
