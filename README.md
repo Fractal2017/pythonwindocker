@@ -3,7 +3,7 @@ This is short but hope useful example on how to run python App GUI from your con
 
 #### Steps
 1. Install on your windows host (VcXsrv). Go to (https://sourceforge.net/projects/vcxsrv/)
-   <img src="/img/Image-0110.png"  width="75%">
+   <img src="/img/Image-0110.png"  width="50%">
 
 
    a. Invoke ```XLAUNCH.exe```
