@@ -71,4 +71,4 @@ This is short but hope useful example on how to run python App GUI from your con
 
 8. The graphical output should be on your Windows host machine
 
- ![Output](https://github.com/Fractal2017/pythonwindocker/blob/master/img/Image-0117.png)
+   <img src="/img/Image-0117.png"  width="50%">
