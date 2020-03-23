@@ -5,7 +5,7 @@ This is short but hope useful example on how to run python App GUI from your con
 1. Install on your windows host (VcXsrv). Go to (https://sourceforge.net/projects/vcxsrv/)
    
    ![VcXsrv](https://github.com/Fractal2017/pythonwindocker/blob/master/img/Image-0110.png)
-   <img src="/img/Image-0110.png"  width="120" height="120">
+   <img src="/img/Image-0110.png"  width="360" height="360">
 
 
    a. Invoke ```XLAUNCH.exe```
